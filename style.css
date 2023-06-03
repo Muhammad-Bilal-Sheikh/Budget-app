@@ -1,0 +1,129 @@
+.wrapper{
+    width: 95%;
+    max-width: 70.5em;
+    font-size: 16px;
+    margin: 1em auto;
+}
+.container{
+    width: 100%;
+}
+.sub-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:3em ;
+}
+.flex{
+    display: flex;
+    align-items: center;
+
+}
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.wrapper h3 {
+    color: gray;
+    font-weight:500;
+    margin-bottom: 0.6em;
+}
+.container input{
+    display: block;
+    width: 20em;
+    padding: 0.6em 0.36em;
+    border: 1px solid gray;
+    border-radius: 0.5em;
+    color: gray;
+    outline: none;
+    font-weight: 400;
+}
+.container input:focus{
+    border-color:skyblue;
+}
+.total-amount-container,
+.user-amount-container{
+    background-color: whitesmoke;
+    padding: 1.25em 0.9em;
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.2em grey;
+}
+.output-container{
+    background-color: whitesmoke;
+    color: rgb(161, 137, 137);
+    border-radius: 0.3em;
+    box-shadow: 0.1em 0.2em gray;
+    font-weight: 500;
+    padding: 1.2em;
+    margin-top: 5vh;
+}
+.output-container p{
+    font-weight: 500;
+    margin-bottom: 0.6em;
+}
+.output-container span{
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    color:grey;    
+}
+.submint{
+    font-size: 1em;
+    margin-top: 1em;
+    padding: 0.6em 1.2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    outline: none;
+    background-color:rgb(161, 137, 137);
+    color: white;
+}
+.list{
+    background-color:rgb(224, 236, 224) ;
+    padding: 1.87em 1.2em;
+    box-shadow:0.15em 0.2em gray;
+    border-radius: 0.3em;
+    margin-top: 5vh;
+}
+.sublist-content{
+    width: 100%;
+    border-radius: 0.3em solid ;
+    margin-bottom: 0.6em;
+    padding: 0.5em;
+}
+.product{
+    margin-left: 1.5em;
+    color: grey;
+}
+.amount{
+    color: aliceblue;
+    margin-left: 10%;
+}
+.icon-container{
+    width: 5rm;
+    margin: 1.2em;
+    align-items: center;
+
+}
+.product-title{
+    margin-bottom: 1em;
+
+}
+.hide{
+    display: none;
+}
+.error{
+    color: red;
+}
+.error{
+    margin-left: auto;
+}
+.edit,.delete{
+    background: transparent;
+    cursor: pointer;
+    margin-right: 1.1em;
+    border: none;
+    color: blue;
+
+}
+
